@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Replication Package for Evidence-Grounded AI-Assisted Detection of Post-Elicitation Requirements Gaps Across Asynchronous Software Artifacts"
+message: "If you use this replication package, please cite it as follows."
+type: software
+authors:
+  - given-names: "Mateen Ahmed"
+    family-names: "Abbasi"
+    orcid: "https://orcid.org/0000-0001-8988-8816"
+repository-code: "https://github.com/mateenabbasi5/post-elicitation-gap-detection-replication-package"
+url: "https://github.com/mateenabbasi5/post-elicitation-gap-detection-replication-package"
+abstract: "Replication package for a benchmark-style evaluation of evidence-grounded AI-assisted detection of post-elicitation requirements gaps across asynchronous software engineering artifacts."
+keywords:
+  - requirements engineering
+  - large language models
+  - post-elicitation analysis
+  - asynchronous artifacts
+  - traceability
+  - replication package
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-04-13"
