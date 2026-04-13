@@ -1,0 +1,9 @@
+Gold_ID,Gap_Type,Description,Evidence,Impacted_Artifacts
+S2_G001,G1,Missing requirement for refund processing time,T8; absence in R1-R14; B1-B6; AC1-AC8; D1-D4,Transcript; Requirements; Backlog; Acceptance Criteria; Decision Log
+S2_G002,G1,Missing requirement for timezone handling,T8; absence in R1-R14; B1-B6; AC1-AC8; D1-D4,Transcript; Requirements; Backlog; Acceptance Criteria; Decision Log
+S2_G003,G2,Hidden assumption that one global return policy applies to all customers,T8; R5; AC1; AC2; D2,Transcript; Requirements; Acceptance Criteria; Decision Log
+S2_G004,G3,Return window conflict between 10-day and 7-day policies,T2; R5; AC1; AC2; D2,Transcript; Requirements; Acceptance Criteria; Decision Log
+S2_G005,G3,Refund method conflict between original payment method and multiple refund methods,T4; R11; D1,Transcript; Requirements; Decision Log
+S2_G006,G4,Notification timing is unresolved,T5; R12; R13; R14; AC6; absence in D1-D4,Transcript; Requirements; Acceptance Criteria; Decision Log
+S2_G007,G5,"Security/compliance requirement is not properly carried into requirements, backlog, or acceptance criteria",T6; D4; absence in R1-R14; B1-B6; AC1-AC8,Transcript; Decision Log; absence elsewhere
+S2_G008,G6,Compliance confirmation is required but no follow-up confirms resolution,T6; D4; absence of resolved compliance confirmation in remaining artifacts,Transcript; Decision Log; absence elsewhere

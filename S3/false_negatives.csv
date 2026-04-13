@@ -1,0 +1,7 @@
+Scenario,Gold ID,Gap Type,Notes on why it was missed
+S3,S3_G001,G1,AI reported a related notification issue as traceability rather than the seeded missing requirement for waitlist notification timing
+S3,S3_G002,G1,AI recognized timezone handling as an issue but reported it as a decision void rather than the seeded missing requirement
+S3,S3_G003,G2,AI did not identify the hidden assumption about prerequisite equivalency handling
+S3,S3_G004,G3,AI did not report the weakened waitlist seat assignment rule as a seeded inconsistency
+S3,S3_G007,G5,AI reported a related audit-log access issue as a decision void rather than the seeded traceability gap
+S3,S3_G008,G6,AI did not separately report missing registrar confirmation as stakeholder silence

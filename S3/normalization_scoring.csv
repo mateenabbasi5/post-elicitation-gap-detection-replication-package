@@ -1,0 +1,6 @@
+Scenario,Condition,Run,Pred ID,Normalized Issue Label,Matched Gold ID,TP/FP,Grounding Quality,Notes
+S3,AI-C1,1,G1,waitlist seat-offer validity unresolved,S3_G006,TP,Fully grounded,direct seeded decision-void gap
+S3,AI-C1,1,G2,duplicate registration policy inconsistency,S3_G005,TP,Fully grounded,direct seeded inconsistency
+S3,AI-C1,1,G3,waitlist status-change notification not fully carried into requirements,,FP,Partially grounded,"related to missing-notification gap, but wrong seeded category and incomplete issue coverage"
+S3,AI-C1,1,G4,audit-log access control not finalized,,FP,Fully grounded,"grounded issue, but seeded gold treats this as traceability/stakeholder issue, not decision void"
+S3,AI-C1,1,G5,timezone handling for course schedule display undefined,,FP,Fully grounded,"related to seeded timezone gap, but wrong seeded category under strict scoring"

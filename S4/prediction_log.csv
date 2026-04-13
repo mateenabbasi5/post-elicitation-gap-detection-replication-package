@@ -1,0 +1,8 @@
+Scenario ID,Condition,Run ID,Prediction ID,Predicted Type,Description,Evidence,Impacted Artifacts,Severity
+S4,AI-C1,1,G1,G1,Requirement for finance verification of receipts before reimbursement is not explicitly specified in the requirements specification.,T5; R8; absence of explicit finance verification requirement before reimbursement,"T5, R8, AC5",High
+S4,AI-C1,1,G2,G4,Behavior after a claim is rejected and support for partially reimbursable claims are unresolved decisions.,T8; absence in R1-R10; absence in AC1-AC8,"T8, R1-R10, AC1-AC8",High
+S4,AI-C1,1,G3,G3,Reimbursement approval workflow differs between requirements and decision log regarding the required approvals.,R8; AC5; D1,"R8, AC5, D1",High
+S4,AI-C1,1,G4,G5,Fraudulent claim prevention mentioned during elicitation is not traced into the requirements specification.,T8; R4; absence of fraud-specific requirement in R1-R10,"T8, R4, R1-R10",Medium
+S4,AI-C1,1,G5,G1,Requirement for displaying expected reimbursement processing time after final approval is not present in the requirements specification.,T6; R5; absence of processing-time display requirement,"T6, R5, AC6, AC7",Medium
+S4,AI-C1,1,G6,G4,Authorization rules for accessing reimbursement audit logs remain unresolved pending compliance confirmation.,T7; D4; R9,"T7, D4, R9",Medium
+S4,AI-C1,1,G7,G3,Approval roles for reimbursement claims differ between requirements and elicitation statements.,T4; R10; AC8,"T4, R10, AC8",Medium

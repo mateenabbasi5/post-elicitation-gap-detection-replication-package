@@ -1,0 +1,6 @@
+Scenario,Condition,Run,Pred_ID,Normalized_Issue_Label,Matched_Gold_ID,TP_FP,Grounding_Quality,Notes
+S5,AI-C1,1,G1,invalid stock update handling undefined,S5_G006,TP,Fully grounded,direct seeded decision-void gap
+S5,AI-C1,1,G2,bulk-update validation missing,S5_G002,TP,Fully grounded,direct seeded missing-requirement gap
+S5,AI-C1,1,G3,critical inventory update approval workflow missing,,FP,Fully grounded,"plausible grounded issue, but not one of the seeded gold gaps"
+S5,AI-C1,1,G4,notification scope inconsistency,,FP,Partially grounded,wording difference is real but not a seeded gold gap
+S5,AI-C1,1,G5,bulk-update authorization unresolved pending compliance confirmation,,FP,Fully grounded,"grounded issue, but seeded gold splits this into traceability and stakeholder-silence gaps"

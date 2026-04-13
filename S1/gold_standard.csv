@@ -1,0 +1,9 @@
+Gold_ID,Gap_Type,Description,Evidence,Impacted_Artifacts
+S1_G001,G1,Missing requirement for timezone handling,T8; absence in R1-R10,Transcript; Requirements
+S1_G002,G1,Missing requirement for exact reminder timing,T5; R6; AC7; absence in D1-D4,Transcript; Requirements; Acceptance Criteria; Decision Log
+S1_G003,G2,Hidden assumption about clinic local timezone,T8; absence in R1-R10; AC1-AC8; D1-D4,Transcript; Requirements; Acceptance Criteria; Decision Log
+S1_G004,G3,Cancellation deadline inconsistency,T2; R3; AC3; AC4; D2,Transcript; Requirements; Acceptance Criteria; Decision Log
+S1_G005,G3,Reminder channel inconsistency,R6; B3; AC7; D1,Requirements; Backlog; Acceptance Criteria; Decision Log
+S1_G006,G4,Reminder timing decision unresolved,T5; absence in D1-D4,Transcript; Decision Log
+S1_G007,G5,Weak traceability for access-control/compliance requirement,T6; D4; R8; R9; B4; AC8,Transcript; Decision Log; Requirements; Backlog; Acceptance Criteria
+S1_G008,G6,Compliance/security follow-up missing,T6; D4; absence elsewhere,Transcript; Decision Log; absence elsewhere

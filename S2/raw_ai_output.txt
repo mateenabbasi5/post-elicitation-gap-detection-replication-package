@@ -1,0 +1,77 @@
+Gap ID: G1
+Classification: G1 Missing Requirements
+Description: Requirement for item inspection before refund approval is not reflected in the requirements specification.
+Evidence:
+
+T3: “Returned items must be inspected before refund approval.”
+AC4: “A returned item must be inspected before refund approval.”
+Requirements specification lacks any requirement mandating inspection prior to refund approval.
+Impacted Artifacts: T3, AC4, R1–R14
+Severity: High
+
+Gap ID: G2
+Classification: G3 Inconsistencies
+Description: Conflict in return eligibility window between meeting transcript and requirements/decision artifacts.
+Evidence:
+
+T2: “Returns should only be allowed within 10 days of delivery.”
+R5: “The system shall validate return requests based on return policy within 7 days of delivery.”
+AC1: “A delivered order within 7 days of delivery can be selected for return request creation.”
+D2: “Returns are allowed within 7 days of delivery.”
+Impacted Artifacts: T2, R5, AC1, AC2, D2
+Severity: High
+
+Gap ID: G3
+Classification: G4 Decision Voids
+Description: Timing rules for return status notifications remain undecided but requirements specify notification events without defining timing conditions.
+Evidence:
+
+T5: “Customers should receive notifications for return status updates, but we still need to decide exactly when those notifications should be sent.”
+R12: “The system shall notify users when a return is requested.”
+R13: “The system shall notify users when a return is approved or rejected.”
+R14: “The system shall notify users when a refund is processed.”
+Impacted Artifacts: T5, R12, R13, R14, AC6
+Severity: Medium
+
+Gap ID: G4
+Classification: G5 Traceability Gaps
+Description: Requirement supporting prevention of duplicate return requests lacks explicit traceability to its originating elicitation evidence in the requirements specification.
+Evidence:
+
+T7: “The system should prevent duplicate return requests for the same item.”
+B6: “As the system, I want to prevent duplicate return requests for the same item.”
+AC3: “A duplicate return request for the same item is rejected.”
+No explicit requirement in R1–R14 defining duplicate request prevention.
+Impacted Artifacts: T7, B6, AC3, R1–R14
+Severity: Medium
+
+Gap ID: G5
+Classification: G1 Missing Requirements
+Description: Access control requirement restricting return/refund management to authorized staff is absent from the requirements specification.
+Evidence:
+
+T6: “Only authorized staff should manage returns and refunds…”
+D4: “Only authorized staff can manage returns, and compliance confirmation is required before release.”
+Requirements specification (R1–R14) does not define role-based access control for return/refund management.
+Impacted Artifacts: T6, D4, R1–R14
+Severity: High
+
+Gap ID: G6
+Classification: G4 Decision Voids
+Description: Handling of timezone differences for deadlines and status timestamps is raised but not defined in requirements or decisions.
+Evidence:
+
+T8: “We should also think about how deadlines and status timestamps are shown when customers are in another timezone.”
+No requirement, decision, or acceptance criteria defining timezone handling.
+Impacted Artifacts: T8, R1–R14, AC1–AC8
+Severity: Medium
+
+Gap ID: G7
+Classification: G1 Missing Requirements
+Description: Requirement for customers to view refund method and expected processing time before confirmation is not captured in the requirements specification.
+Evidence:
+
+T8: “Customers should see the refund method and expected processing time before confirmation.”
+No corresponding requirement in R1–R14.
+Impacted Artifacts: T8, R1–R14
+Severity: Medium

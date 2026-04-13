@@ -1,0 +1,9 @@
+Gold ID,Gap Type,Description,Evidence,Impacted Artifacts
+S4_G001,G1,Missing requirement for reimbursement processing time,"T6, absence in R1-R10, AC1-AC8, D1-D4",Transcript; Requirements; Acceptance Criteria; Decision Log
+S4_G002,G1,Missing rule for partial reimbursement,"T8, absence in R1-R10, B1-B6, AC1-AC8, D1-D4",Transcript; Requirements; Backlog; Acceptance Criteria; Decision Log
+S4_G003,G2,Hidden assumption about what counts as a valid receipt,"T2, D2, absence of receipt-validity definition in remaining artifacts",Transcript; Decision Log; absence elsewhere
+S4_G004,G3,Inconsistency in approval responsibility wording,"T4, R6, R10, B4, AC4, AC8",Transcript; Requirements; Backlog; Acceptance Criteria
+S4_G005,G3,Inconsistency in finance verification enforcement,"T5, R7, R8, B5, AC5, D1",Transcript; Requirements; Backlog; Acceptance Criteria; Decision Log
+S4_G006,G4,No rule for handling rejected claims,"T8, T4, B4, absence in D1-D4",Transcript; Backlog; Decision Log
+S4_G007,G5,Weak traceability for audit-log access policy,"T7, D4, R9, absence in B1-B6, AC1-AC8",Transcript; Decision Log; Requirements; absence elsewhere
+S4_G008,G6,Compliance confirmation for audit-log access is missing,"T7, D4, absence of confirmed resolution in remaining artifacts",Transcript; Decision Log; absence elsewhere

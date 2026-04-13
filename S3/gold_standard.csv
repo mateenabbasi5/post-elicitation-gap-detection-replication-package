@@ -1,0 +1,9 @@
+Gold ID,Gap Type,Description,Evidence,Impacted Artifacts
+S3_G001,G1,Missing requirement for waitlist notification timing,"T5, D3, absence in R1-R10, AC1-AC8","Transcript, Decision Log, Requirements, Acceptance Criteria"
+S3_G002,G1,Missing requirement for timezone handling of course schedule display,"T8, absence in R1-R10, B1-B6, AC1-AC8, D1-D4","Transcript, Requirements, Backlog, Acceptance Criteria, Decision Log"
+S3_G003,G2,Hidden assumption about prerequisite equivalency handling,"T2, R2, D1, absence of equivalency rule in remaining artifacts","Transcript, Requirements, Decision Log, absence elsewhere"
+S3_G004,G3,Inconsistency in waitlist seat assignment rule,"T4, R4, AC4, D2","Transcript, Requirements, Acceptance Criteria, Decision Log"
+S3_G005,G3,Inconsistency in duplicate registration policy,"T7, R6, AC6","Transcript, Requirements, Acceptance Criteria"
+S3_G006,G4,Waitlist seat-offer validity period unresolved,"T4, absence in D1-D4","Transcript, Decision Log"
+S3_G007,G5,Weak traceability for audit/support log-access policy,"T6, D4, R8, B5, AC8","Transcript, Decision Log, Requirements, Backlog, Acceptance Criteria"
+S3_G008,G6,Registrar confirmation of log-access policy missing,"T6, D4, absence of confirmed resolution in remaining artifacts","Transcript, Decision Log, absence elsewhere"

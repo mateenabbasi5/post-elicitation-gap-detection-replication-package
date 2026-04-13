@@ -1,0 +1,8 @@
+Scenario,Condition,Run,Pred_ID,Normalized_Issue_Label,Matched_Gold_ID,TP_FP,Grounding_Quality,Notes
+S2,AI-C1,1,G1,inspection before refund approval missing from requirements,,FP,Fully grounded,"plausible grounded issue, but not one of the seeded gold gaps"
+S2,AI-C1,1,G2,return window inconsistency 10 vs 7 days,S2_G004,TP,Fully grounded,direct seeded inconsistency
+S2,AI-C1,1,G3,notification timing decision unresolved,S2_G006,TP,Partially grounded,"correct issue, but absence of final decision in decision log not cited explicitly"
+S2,AI-C1,1,G4,duplicate return prevention lacks explicit requirement traceability,,FP,Fully grounded,"grounded issue, but not the seeded traceability gap"
+S2,AI-C1,1,G5,authorized-staff access control absent from requirements,,FP,Fully grounded,"related to security/compliance gap, but wrong seeded category under strict scoring"
+S2,AI-C1,1,G6,timezone handling undefined,,FP,Fully grounded,"related to seeded timezone gap, but wrong seeded category under strict scoring"
+S2,AI-C1,1,G7,refund processing time missing from requirements,S2_G001,TP,Partially grounded,"captures the seeded missing-processing-time gap, but bundles it with extra visibility issue"

@@ -1,0 +1,8 @@
+Scenario_ID,Condition,Run_ID,Prediction_ID,Predicted_Type,Description,Evidence,Impacted_Artifacts,Severity
+S2,AI-C1,1,G1,G1,Requirement for item inspection before refund approval is not reflected in the requirements specification.,T3; AC4; absence in R1-R14,"T3, AC4, R1-R14",High
+S2,AI-C1,1,G2,G3,Conflict in return eligibility window between meeting transcript and requirements/decision artifacts.,T2; R5; AC1; AC2; D2,"T2, R5, AC1, AC2, D2",High
+S2,AI-C1,1,G3,G4,Timing rules for return status notifications remain undecided but requirements specify notification events without defining timing conditions.,T5; R12; R13; R14; AC6,"T5, R12, R13, R14, AC6",Medium
+S2,AI-C1,1,G4,G5,Requirement supporting prevention of duplicate return requests lacks explicit traceability to its originating elicitation evidence in the requirements specification.,T7; B6; AC3; absence in R1-R14,"T7, B6, AC3, R1-R14",Medium
+S2,AI-C1,1,G5,G1,Access control requirement restricting return/refund management to authorized staff is absent from the requirements specification.,T6; D4; absence in R1-R14,"T6, D4, R1-R14",High
+S2,AI-C1,1,G6,G4,Handling of timezone differences for deadlines and status timestamps is raised but not defined in requirements or decisions.,T8; absence in R1-R14; absence in AC1-AC8,"T8, R1-R14, AC1-AC8",Medium
+S2,AI-C1,1,G7,G1,Requirement for customers to view refund method and expected processing time before confirmation is not captured in the requirements specification.,T8; absence in R1-R14,"T8, R1-R14",Medium

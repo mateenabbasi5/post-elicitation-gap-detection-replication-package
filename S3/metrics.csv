@@ -1,0 +1,11 @@
+Metric,Value
+True Positives,2
+False Positives,3
+False Negatives,6
+Precision,0.4
+Recall,0.25
+F1-score,0.31
+Evidence-grounding score,0.8
+Fully grounded,4
+Partially grounded,1
+Unsupported,0

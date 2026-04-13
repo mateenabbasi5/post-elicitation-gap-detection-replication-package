@@ -1,0 +1,132 @@
+Gap ID: GAP-01
+Classification: G3 Inconsistencies
+Description: The cancellation deadline is inconsistent across artifacts.
+Evidence:
+
+[T2] “Patients should be able to cancel appointments, but cancellation should only be allowed up to 24 hours before the scheduled time.”
+[R3] “The system shall allow patients to cancel appointments up to 12 hours before the scheduled appointment time.”
+[AC3] “A cancellation request submitted more than 24 hours before the appointment is accepted.”
+[AC4] “A cancellation request submitted less than 24 hours before the appointment is rejected.”
+[D2] “Cancellation is allowed only up to 24 hours before the scheduled appointment time.”
+Impacted Artifacts:
+T2
+R3
+AC3
+AC4
+D2
+Severity: High
+
+Gap ID: GAP-02
+Classification: G3 Inconsistencies
+Description: The reminder channel is inconsistent between elicited requirement intent and the recorded decision.
+Evidence:
+
+[T5] “Patients should receive a reminder before the appointment. Email is enough for the first release...”
+[R6] “The system shall send appointment reminder emails to patients before scheduled appointments.”
+[B3] “As a patient, I want to receive an email reminder before my appointment.”
+[AC7] “A reminder email is sent to the patient before the appointment.”
+[D1] “Reminder channel for release 1 is SMS.”
+Impacted Artifacts:
+T5
+R6
+B3
+AC7
+D1
+Severity: High
+
+Gap ID: GAP-03
+Classification: G4 Decision Voids
+Description: The exact timing for reminder delivery has not been decided, but the requirement and acceptance criterion remain underspecified.
+Evidence:
+
+[T5] “...we still need to decide exactly when reminders should be sent.”
+[R6] “The system shall send appointment reminder emails to patients before scheduled appointments.”
+[AC7] “A reminder email is sent to the patient before the appointment.”
+Impacted Artifacts:
+T5
+R6
+AC7
+Severity: Medium
+
+Gap ID: GAP-04
+Classification: G2 Hidden Assumptions
+Description: Staff access requirements assume all staff may view and update appointment records, while the elicitation states only authorized staff should have access.
+Evidence:
+
+[T6] “Only authorized staff should be able to view or manage appointment records...”
+[R8] “The system shall allow staff to view appointment records.”
+[R9] “The system shall allow staff to update appointment records when required for clinic operations.”
+[B4] “As a staff member, I want to view and update appointment records.”
+[AC8] “Staff users can view or update appointment records.”
+Impacted Artifacts:
+T6
+R8
+R9
+B4
+AC8
+Severity: High
+
+Gap ID: GAP-05
+Classification: G5 Traceability Gaps
+Description: The requirement that compliance must confirm the staff access policy before release is captured in elicitation and the decision log but is not represented in the requirements, backlog, or acceptance criteria.
+Evidence:
+
+[T6] “...compliance should confirm the access policy before release.”
+[D4] “Staff access policy requires compliance confirmation before release.”
+No corresponding requirement, backlog item, or acceptance criterion in [R1–R10], [B1–B6], or [AC1–AC8].
+Impacted Artifacts:
+T6
+D4
+R1–R10
+B1–B6
+AC1–AC8
+Severity: High
+
+Gap ID: GAP-06
+Classification: G1 Missing Requirements
+Description: Timezone handling for appointment times is raised during elicitation but is not specified in the downstream artifacts.
+Evidence:
+
+[T8] “We should also think about how times are shown when patients book from another timezone.”
+[R7] “The system shall store appointment details including date, time, doctor, and appointment mode.”
+No corresponding requirement, backlog item, acceptance criterion, or decision in [R1–R10], [B1–B6], [AC1–AC8], or [D1–D4].
+Impacted Artifacts:
+T8
+R7
+R1–R10
+B1–B6
+AC1–AC8
+D1–D4
+Severity: Medium
+
+Gap ID: GAP-07
+Classification: G5 Traceability Gaps
+Description: The requirement that appointment details should be shown to both staff and patients is only partially traced; downstream artifacts specify storage of details but do not fully carry the display requirement for both user groups.
+Evidence:
+
+[T8] “Appointment details shown to staff and patients should include date, time, doctor, and appointment mode.”
+[R7] “The system shall store appointment details including date, time, doctor, and appointment mode.”
+No corresponding patient/staff display-focused backlog item or acceptance criterion in [B1–B6] or [AC1–AC8], except partial coverage for appointment mode in [AC5].
+Impacted Artifacts:
+T8
+R7
+B1–B6
+AC1–AC8
+Severity: Medium
+
+Gap ID: GAP-08
+Classification: G6 Stakeholder Silence
+Description: No stakeholder artifact after elicitation confirms or resolves the security officer’s access-control concern beyond noting a pending compliance confirmation.
+Evidence:
+
+[T6] “Only authorized staff should be able to view or manage appointment records, and compliance should confirm the access policy before release.”
+[D4] “Staff access policy requires compliance confirmation before release.”
+No explicit resolved access policy details in [R8], [R9], [B4], or [AC8].
+Impacted Artifacts:
+T6
+D4
+R8
+R9
+B4
+AC8
+Severity: Medium

@@ -1,0 +1,75 @@
+Gap ID: G1
+Classification: G1 Missing Requirements
+Description: Requirement for finance verification of receipts before reimbursement is not explicitly specified in the requirements specification.
+Evidence:
+
+T5: “The finance team should verify receipts before processing reimbursement.”
+R8: “The system shall process reimbursement after approval.”
+No requirement specifying receipt verification by finance prior to reimbursement processing.
+Impacted Artifacts: T5, R8, AC5
+Severity: High
+
+Gap ID: G2
+Classification: G4 Decision Voids
+Description: Behavior after a claim is rejected and support for partially reimbursable claims are unresolved decisions.
+Evidence:
+
+T8: “The system should prevent duplicate or fraudulent claims, but we still need to decide what happens after a claim is rejected and whether partially reimbursable claims are supported.”
+No requirement, acceptance criteria, or decision defining post-rejection handling or partial reimbursement processing.
+Impacted Artifacts: T8, R1–R10, AC1–AC8
+Severity: High
+
+Gap ID: G3
+Classification: G3 Inconsistencies
+Description: Reimbursement approval workflow differs between requirements and decision log regarding the required approvals.
+Evidence:
+
+R8: “The system shall process reimbursement after approval.”
+AC5: “Reimbursement is processed after manager approval.”
+D1: “Reimbursement will be processed only after manager and finance approval.”
+Impacted Artifacts: R8, AC5, D1
+Severity: High
+
+Gap ID: G4
+Classification: G5 Traceability Gaps
+Description: Fraudulent claim prevention mentioned during elicitation is not traced into the requirements specification.
+Evidence:
+
+T8: “The system should prevent duplicate or fraudulent claims.”
+R4: “The system shall prevent duplicate reimbursement claims.”
+No requirement specifying detection or prevention of fraudulent claims.
+Impacted Artifacts: T8, R4, R1–R10
+Severity: Medium
+
+Gap ID: G5
+Classification: G1 Missing Requirements
+Description: Requirement for displaying expected reimbursement processing time after final approval is not present in the requirements specification.
+Evidence:
+
+T6: “Employees should receive notifications about claim status updates, and they should be able to see the expected reimbursement processing time after final approval.”
+R5: “The system shall notify users of claim status updates.”
+No requirement defining display of expected reimbursement processing time.
+Impacted Artifacts: T6, R5, AC6, AC7
+Severity: Medium
+
+Gap ID: G6
+Classification: G4 Decision Voids
+Description: Authorization rules for accessing reimbursement audit logs remain unresolved pending compliance confirmation.
+Evidence:
+
+T7: “Only authorized personnel should approve reimbursement claims, and compliance should confirm who may access audit logs before release.”
+D4: “Only authorized personnel can approve claims, and compliance confirmation is required before support access to audit logs is granted.”
+R9: “The system shall maintain audit logs for reimbursement activities.”
+Impacted Artifacts: T7, D4, R9
+Severity: Medium
+
+Gap ID: G7
+Classification: G3 Inconsistencies
+Description: Approval roles for reimbursement claims differ between requirements and elicitation statements.
+Evidence:
+
+T4: “Managers should review and approve or reject claims.”
+R10: “The system shall allow staff to approve claims.”
+AC8: “Authorized users can approve reimbursement claims.”
+Impacted Artifacts: T4, R10, AC8
+Severity: Medium

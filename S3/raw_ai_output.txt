@@ -1,0 +1,53 @@
+Gap ID: G1
+Classification: G4 Decision Voids
+Description: The validity duration of a waitlist seat offer is unresolved, leaving the waitlist promotion process incomplete.
+Evidence:
+
+T4: “When a seat becomes available, the first eligible student on the waitlist should be offered the seat, but we still need to decide how long that offer remains valid before it moves to the next student.”
+R4: “The system shall assign an available seat to a waitlisted student when a seat becomes available.”
+AC4: “When a seat becomes available, the first eligible waitlisted student is offered the seat.”
+Impacted Artifacts: T4, R4, AC4
+Severity: High
+
+Gap ID: G2
+Classification: G3 Inconsistencies
+Description: Duplicate registration rule conflicts between requirements and acceptance criteria regarding the applicable time scope.
+Evidence:
+
+T7: “Students should not be able to register for the same course twice in the same term.”
+R6: “The system shall prevent duplicate registration for the same course in the same academic year.”
+AC6: “A student cannot register twice for the same course in the same term.”
+Impacted Artifacts: T7, R6, AC6
+Severity: High
+
+Gap ID: G3
+Classification: G5 Traceability Gaps
+Description: Notification of waitlist status changes mentioned during elicitation is not traced into the requirements specification.
+Evidence:
+
+T5: “Students should be able to see whether they are enrolled, waitlisted, or rejected, and they should be notified when their waitlist status changes.”
+R9: “The system shall notify students when they are enrolled from the waitlist.”
+No requirement specifying notifications for other waitlist status changes.
+Impacted Artifacts: T5, R9
+Severity: Medium
+
+Gap ID: G4
+Classification: G4 Decision Voids
+Description: Access control for registration audit logs is not finalized, leaving authorization rules undefined.
+Evidence:
+
+T6: “Registration actions should be recorded for auditing and support purposes, and the registrar’s office should confirm who is allowed to access those logs.”
+D4: “Registration actions must be logged, and registrar confirmation is required before support access is granted.”
+R8: “The system shall record registration actions for audit purposes.”
+Impacted Artifacts: T6, D4, R8, AC8
+Severity: Medium
+
+Gap ID: G5
+Classification: G4 Decision Voids
+Description: Handling of course schedule display for students accessing the portal from different timezones is raised but not defined.
+Evidence:
+
+T8: “We should also think about how course times are shown when students access the portal from another timezone.”
+R7: “The system shall display course title, schedule, instructor, and seat availability during registration.”
+Impacted Artifacts: T8, R7, AC7
+Severity: Medium

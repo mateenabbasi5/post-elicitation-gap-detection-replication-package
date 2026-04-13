@@ -1,0 +1,3 @@
+Scenario,Gold_ID,Gap_Type,Notes_on_why_it_was_missed
+S1,S1_G002,G1,"AI identified unresolved reminder timing as a decision void, but did not separately report the missing requirement for exact reminder timing"
+S1,S1_G003,G2,AI did not identify the hidden assumption that clinic local time governs timezone-related behavior

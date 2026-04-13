@@ -1,0 +1,9 @@
+Scenario,Condition,Run,Pred_ID,Normalized_Issue_Label,Matched_Gold_ID,TP_FP,Grounding_Quality,Notes
+S1,AI-C1,1,GAP-01,cancellation deadline inconsistency,S1_G004,TP,Fully grounded,"clear direct contradiction across transcript, requirement, AC, decision log"
+S1,AI-C1,1,GAP-02,reminder channel inconsistency,S1_G005,TP,Fully grounded,direct mismatch between email artifacts and SMS decision
+S1,AI-C1,1,GAP-03,reminder timing decision unresolved,S1_G006,TP,Partially grounded,"correct issue, but absence of final decision in decision log not cited explicitly"
+S1,AI-C1,1,GAP-04,staff access broadened from authorized staff to staff generally,,FP,Fully grounded,"plausible and grounded issue, but does not match seeded gold category"
+S1,AI-C1,1,GAP-05,compliance confirmation not carried into downstream artifacts,S1_G007,TP,Fully grounded,direct match to seeded traceability gap
+S1,AI-C1,1,GAP-06,timezone handling missing from downstream requirements,S1_G001,TP,Fully grounded,direct match to missing requirement gap
+S1,AI-C1,1,GAP-07,appointment detail display only partially traced,,FP,Partially grounded,"related to artifacts, but not a seeded gold gap"
+S1,AI-C1,1,GAP-08,compliance/security follow-up missing,S1_G008,TP,Fully grounded,direct match to stakeholder silence gap

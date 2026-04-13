@@ -1,0 +1,35 @@
+Category,Metric,Value
+overall,True Positives,3
+overall,False Positives,4
+overall,False Negatives,5
+overall,Precision,0.43
+overall,Recall,0.38
+overall,F1-score,0.40
+overall,Evidence-grounding score,0.71
+grounding,Fully grounded,5
+grounding,Partially grounded,2
+grounding,Unsupported,0
+G1,Gold Count,2
+G1,TP,1
+G1,FP,2
+G1,FN,1
+G2,Gold Count,1
+G2,TP,0
+G2,FP,0
+G2,FN,1
+G3,Gold Count,2
+G3,TP,1
+G3,FP,0
+G3,FN,1
+G4,Gold Count,1
+G4,TP,1
+G4,FP,1
+G4,FN,0
+G5,Gold Count,1
+G5,TP,0
+G5,FP,1
+G5,FN,1
+G6,Gold Count,1
+G6,TP,0
+G6,FP,0
+G6,FN,1

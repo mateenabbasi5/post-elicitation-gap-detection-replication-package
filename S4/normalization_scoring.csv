@@ -1,0 +1,8 @@
+Scenario,Condition,Run,Pred ID,Normalized Issue Label,Matched Gold ID,TP/FP,Grounding Quality,Notes
+S4,AI-C1,1,G1,finance verification before reimbursement missing from requirements,,FP,Fully grounded,"grounded issue, but seeded gold treats this as an inconsistency rather than a missing requirement"
+S4,AI-C1,1,G2,rejected-claim handling unresolved and partial reimbursement unresolved,S4_G006,TP,Partially grounded,"correctly captures the seeded rejected-claim decision void, but bundles in partial reimbursement"
+S4,AI-C1,1,G3,reimbursement approval workflow inconsistency,S4_G005,TP,Fully grounded,direct seeded inconsistency
+S4,AI-C1,1,G4,fraudulent claim prevention not traced into requirements,,FP,Fully grounded,"plausible grounded issue, but not one of the seeded gold gaps"
+S4,AI-C1,1,G5,reimbursement processing time missing from requirements,S4_G001,TP,Fully grounded,direct seeded missing-requirement gap
+S4,AI-C1,1,G6,audit-log access authorization unresolved pending compliance confirmation,,FP,Fully grounded,"grounded issue, but seeded gold splits this into traceability and stakeholder-silence gaps"
+S4,AI-C1,1,G7,approval responsibility wording inconsistency,S4_G004,TP,Fully grounded,direct seeded inconsistency

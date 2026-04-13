@@ -1,0 +1,55 @@
+Gap ID: G1
+Classification: G4 Decision Voids
+Description: The system response to invalid inventory updates remains undefined.
+Evidence:
+
+T8: "Duplicate or inconsistent stock entries should be prevented, but we still need to decide what the system should do when an invalid stock update is submitted."
+AC3: "An invalid inventory update is flagged for review."
+No requirement in R1–R10 specifying the system behavior for invalid updates.
+Impacted Artifacts: T8, AC3, R1–R10
+Severity: High
+
+Gap ID: G2
+Classification: G1 Missing Requirements
+Description: Validation requirements do not cover bulk inventory uploads even though bulk updates are allowed.
+Evidence:
+
+T3: "Inventory updates, including bulk uploads, should be validated to prevent incorrect entries."
+R3: "The system shall validate inventory updates entered through the standard update form before saving."
+R10: "The system shall allow bulk stock updates."
+No requirement specifying validation for bulk uploads.
+Impacted Artifacts: T3, R3, R10
+Severity: High
+
+Gap ID: G3
+Classification: G1 Missing Requirements
+Description: Approval workflow for critical inventory updates by managers is not defined in the requirements specification.
+Evidence:
+
+T4: "Managers should monitor stock levels and approve critical updates."
+R6: "The system shall allow managers to monitor inventory."
+No requirement specifying approval of critical inventory updates.
+Impacted Artifacts: T4, R6, R1–R10
+Severity: Medium
+
+Gap ID: G4
+Classification: G3 Inconsistencies
+Description: Notification scope differs between elicitation statements and requirements specification.
+Evidence:
+
+T5: "The system should notify staff about low stock and reorder actions."
+R5: "The system shall notify users about stock changes."
+AC6: "Users receive notifications for low stock and reorder events."
+Impacted Artifacts: T5, R5, AC6
+Severity: Medium
+
+Gap ID: G5
+Classification: G4 Decision Voids
+Description: Authorization rules for bulk inventory updates remain unresolved pending compliance confirmation.
+Evidence:
+
+T6: "Only authorized users should update or manage inventory data, and compliance should confirm which roles may perform bulk stock updates before release."
+D4: "Only authorized users can update inventory data, and compliance confirmation is required before bulk-update access is enabled."
+R10: "The system shall allow bulk stock updates."
+Impacted Artifacts: T6, D4, R10
+Severity: Medium

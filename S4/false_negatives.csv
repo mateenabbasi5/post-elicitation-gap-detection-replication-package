@@ -1,0 +1,5 @@
+Scenario,Gold ID,Gap Type,Notes on why it was missed
+S4,S4_G002,G1,"AI mentioned partial reimbursement together with rejected-claim handling, but did not report it separately as the seeded missing requirement"
+S4,S4_G003,G2,AI did not identify the hidden assumption about what counts as a valid receipt
+S4,S4_G007,G5,AI reported a related audit-log access issue as a decision void rather than the seeded traceability gap
+S4,S4_G008,G6,AI did not separately report missing compliance confirmation as stakeholder silence

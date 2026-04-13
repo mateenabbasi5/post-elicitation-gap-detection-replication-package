@@ -1,0 +1,6 @@
+Scenario_ID,Condition,Run_ID,Prediction_ID,Predicted_Type,Description,Evidence,Impacted_Artifacts,Severity
+S5,AI-C1,1,G1,G4,The system response to invalid inventory updates remains undefined.,T8; AC3; absence in R1-R10,"T8, AC3, R1-R10",High
+S5,AI-C1,1,G2,G1,Validation requirements do not cover bulk inventory uploads even though bulk updates are allowed.,T3; R3; R10; absence of bulk-upload validation requirement,"T3, R3, R10",High
+S5,AI-C1,1,G3,G1,Approval workflow for critical inventory updates by managers is not defined in the requirements specification.,T4; R6; absence in R1-R10,"T4, R6, R1-R10",Medium
+S5,AI-C1,1,G4,G3,Notification scope differs between elicitation statements and requirements specification.,T5; R5; AC6,"T5, R5, AC6",Medium
+S5,AI-C1,1,G5,G4,Authorization rules for bulk inventory updates remain unresolved pending compliance confirmation.,T6; D4; R10,"T6, D4, R10",Medium
